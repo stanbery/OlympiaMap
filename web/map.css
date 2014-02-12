@@ -1,0 +1,78 @@
+
+#dhtmltooltip{
+position: absolute;
+width: 250px;
+border: 2px solid black;
+padding: 2px;
+background-color: lightyellow;
+visibility: hidden;
+z-index: 100;
+/*Remove below line to remove shadow. Below line should always appear last within this CSS*/
+filter: progid:DXImageTransform.Microsoft.Shadow(color=gray,direction=135);
+}
+
+a {
+  text-decoration: none;
+}
+
+.mountain { background-color: #ff9999; }
+.desert { background-color: #ffcc00; }
+.plain { background-color: #ffff66; }
+.forest { background-color: #33ff33; }
+.swamp { background-color: #bbbbbb; }
+.ocean { background-color: #33ccff; }
+.oroute { background-color: #0066cc; }
+.unknown { background-color: #666666; }
+.tunnel { background-color: #bbbbbb; }
+
+.civ0 { background-color: #aaaaaa; }
+.civ1 { background-color: #6666ff; }
+.civ2 { background-color: #3399ff; }
+.civ3 { background-color: #66ffff; }
+.civ4 { background-color: #99ff00; }
+.civ5 { background-color: #ffff66; }
+.civ6 { background-color: #ffcc00; }
+.civ7 { background-color: #ff9966; }
+.civ8 { background-color: #ff99ff; }
+
+
+h1 {
+  text-decoration: underline;
+  font-size: 1em;
+}
+h2 {
+  font-size: 1em;
+}
+/* border styles */
+td {
+  padding: 3px;
+  text-align: center;
+  border-color: #222222;
+  border-width: 2px;
+}
+.map {
+  border-style: dashed;
+  border-color: #66ccff;
+  border-width: 1px;
+}
+.seen {
+  text-decoration: underline;
+  border-style: solid;
+  border-width: 2px;
+}
+.group4 {
+  border-width: 3px;
+  border-color: #0000ff;
+}
+.group2 {
+  border-width: 3px;
+  border-color: #ff0000;
+}
+.group3 {
+  border-width: 3px;
+  border-color: #ff9900;
+}
+.garrison {
+  border-style: outset;
+  border-width: 4px;
+}
